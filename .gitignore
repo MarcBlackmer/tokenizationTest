@@ -1,0 +1,6 @@
+# Ignore all .log files
+*.DS_Store
+
+# Ignore certain directories
+tokenTest/
+__pycache__

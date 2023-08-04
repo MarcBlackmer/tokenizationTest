@@ -1,0 +1,24 @@
+# My Tokenization Test Project
+
+My goal is to use an LLM like ChatGPT or Claude to analyze transcripts of customer calls for customer sentiment, common pain points, etc. What's prevented me from doing this is a concern for privacy and protecting proprietary data.
+
+This script was created as a no-cost (except for my time) workaround to commercial solutions for which I have no budget. I'm also not a developer, which should already be screamingly obvious.
+
+The other facet to this project is testing ChatGPT's Code Interpreter. This script, at least in its original form, was created entirely by ChatGPT with my direction. It took several attempts to get it to this point and it could be better, but it's a good first step.
+
+## Process
+
+Here's my process for creating this:
+
+1. Have ChatGPT create a fictional transcript for a customer interview including names titles, company names, product names, etc. Basically, I want it to include everything that I want to tokenize.
+   - This also includes variations of names, such as nicknames like "Sarah" and "Sally".
+   - In my case, I copied and pasted the output into Word as the real transcripts I'd like to analyze are in Word. I did find it was better to use text files as there were many problems with getting ChatGPT to use the right libraries and versions of Python.
+2. Upload the mock interview to ChatGPT Code Interpreter, tell ChatGPT what I was trying to achieve and then iterate, iterate, iterate.
+3. The output was a tokenized text file.
+4. Iterate, iterate, iterate.
+
+It's decent and still needs much more testing, but you have the idea.
+
+## Have Fun!
+
+Have at it, have fun, and please do share your results.
